@@ -16,3 +16,6 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/tes', 'UserController@getUser');
+$router->get('/tambahraf', 'UserController@addUser');
+
+
